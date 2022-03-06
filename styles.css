@@ -1,0 +1,132 @@
+@import url(./css/nav.css);
+@import url(./css/header.css);
+@import url(./css/gallery.css);
+
+/* @media screen and (max-width: 900px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        width: 90%;
+    }
+} */
+
+@media screen and (max-width: 480px) {
+    .gallery-frame {
+        width: 100%;
+        height: auto;
+        padding-bottom: 0;
+    }
+
+    .gallery-frame {
+        width: 100%;
+    }
+
+    .gallery-iteminfo {
+        position: relative;
+        justify-content: space-between;
+        font-weight: bold;
+        color: white;
+        opacity: 1;
+        width: auto;
+        height: auto;
+        color: black;
+        font-weight: 100;
+        background-color: transparent;
+        flex-direction : row;
+    }
+
+    .gallery-iteminfo:hover {
+        background-color: transparent;
+    }
+
+    .add-post {
+        display: none;
+    }
+
+    .add-post-mobile {
+        display: flex;
+        justify-content: center;
+        padding: .6em;
+        position: fixed;
+        z-index: 1;
+        bottom: 0;
+        right: 0;
+        width: 56px;
+        height: 56px;
+        border: 0px solid;
+        border-radius: 50%;
+        background-color: #0099ff;
+        color: white;
+        font-size: x-large;
+        text-shadow: 1.5px 1px #555;
+        margin-bottom: 70px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+    .add-post-mobile:active {
+        background-color: #085d95;
+    }
+
+    .container {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .profile-picture {
+        width: 25%;
+    }
+
+    .profile-summary {
+        width: 75%;
+        margin-left: 1.5em;
+    }
+
+    .profile-summary > h1 {
+        font-size: x-large;
+    }
+
+    .profile-stats {
+        flex-direction: column;
+        row-gap: .5em;
+    }
+
+    nav form {
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
